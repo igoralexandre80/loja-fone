@@ -1,0 +1,30 @@
+header {
+    background-color: #e24647;   
+    color: #fff;
+    overflow: hidden;
+    margin: 0 115px; /* O zero é para top e bottom e o 115 fica definido tanto para left qto para right*/
+    padding: 60px 50px 95px 60px; 
+}
+
+h1, a {
+    color: #fff;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: Arial, "Roboto", sans-serif;
+    float: left;
+}
+
+nav {
+    font-size: 21px;
+    font-family: "Segoe UI", "Roboto", sans-serif;
+    float: right;
+   
+
+}
+
+a {
+    text-decoration: none;
+    
+}
