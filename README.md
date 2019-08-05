@@ -42,6 +42,55 @@ Agora quando temos 2 elementos um do lado do outro vamos usar 2 quadrados como e
 A ordem dos valores das propriedades da MARGING são:
 1) TOP 2) RIGHT 3) BOTTOM 4) LEFT
 
+# SELETORES
+
+- TAG: Passa o nome da Tag e cria o seletor(que é preso a propria Tag por mais obvio que isso possa parecer), exemplo: 
+    h1 {
+    color: white;
+    }
+
+- ID: Usa # e cria o seletor (como boa pratica só criar um por página com o nome igual), exemplo:
+    #last {
+        color: white;
+    }
+
+- CLASS: Usa . e cria o seletor (pode ser usado "N" vezes na mesma página), exemplo:
+    .last {
+        color: white;
+    }
+
+# DISPLAY
+
+- INLINE: deixa os elementos na mesma linha e não permite definir o "WIDTH e HEIGHT";
+
+- BLOCK:  não deixa os elementos na mesma linha mas permite definir o "WIDTH e HEIGHT";
+
+- INLINE-BLOCK: deixa os elementos na mesma linha e permite definir o "WIDTH E HEIGHT"
+
+# POSITION
+
+- ABSOLUTE (funciona bem similar ao float): cria um novo contexto e o que vai definir a largura e a altura é o conteúdo. Dentro dele temos 4 propriedades mas o recomendado é usar 2 apenas.
+/* TOP e BOTTOM => mexem com o eixo X (não faz sentido usar essas 2 no mesmo valor)
+/* LEFT e RIGHT => mexem com o eixo Y (não faz sentido usar essas 2 no mesmo valor)
+
+# CALL TO ACTION (CTA)
+
+(CTA) é o botão final que voce quer que o usuário clique sempre. Ex. Clicar em: Comprar (na nossa loja fone), já o botão Adiciona ao carrinho é um botão secundário (não sendo um CTA).
+
+# VERTICAL ALIGN
+
+Só funciona para alinharmos quando tivermos 2 elementos na mesma linha e forem inline-block um do lado do outro. 
+
+# BORDER-BOX
+
+Calcula a borda fazendo parte da largura e da altura.
+
+# CONTENT-BOX
+
+Não faz parte da largura e da altura fazendo com que o elemento cresça e fique desalinhado como foi o caso dos 2 botões aqui.
+
+
+
 
 
 
