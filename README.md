@@ -89,6 +89,19 @@ Calcula a borda fazendo parte da largura e da altura.
 
 Não faz parte da largura e da altura fazendo com que o elemento cresça e fique desalinhado como foi o caso dos 2 botões aqui.
 
+# DESCRIPTIONS (TAGS)
+
+- Description List (DL) -> Usada para descrever algo, exemplo: O texto com a descrição de um avatar.
+
+A Decription List (DL) tem por sua vez um titulo que é a Description Title (DT) e para descrever o produto temos uma tag chamada Define Description (DD)
+                                                <dl>
+                                                <dt>
+                                                <dd>
+
+
+
+
+
 
 
 
